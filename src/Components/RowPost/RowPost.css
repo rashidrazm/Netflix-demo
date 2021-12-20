@@ -4,6 +4,7 @@
 }
 
 .posters{
+    cursor: pointer;
     display: flex;
     padding: 20px;
     overflow-x: scroll;
@@ -15,6 +16,7 @@
 }
 
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;    
 }
@@ -22,4 +24,8 @@
 .smallposter{
     max-height: 150px;
     margin-right: 10px; 
+}
+
+.poster:hover {
+    transform: scale(1.1);
 }
